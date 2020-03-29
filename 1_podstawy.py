@@ -1,5 +1,3 @@
-'''
-
 print("Anna")
 print(8)
 
@@ -68,5 +66,4 @@ print(surname[-2:])   # ki
 print(surname[:-2])   # Nowakows
 print(surname[:-2:2]) # NWkw
 
-'''
 
