@@ -1,1 +1,1 @@
-cos
+print("cos")
