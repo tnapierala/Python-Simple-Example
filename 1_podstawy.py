@@ -23,7 +23,7 @@ print("Długość imienia: " + lenghtName )
 lenSurname=len(surname)
 print(lenSurname)
 print(type(lenSurname))
-print(type(lenghtSurname))
+print(type(lenghtName))
 print(type(surname))
 
 #zad1
@@ -65,5 +65,3 @@ print(surname[-2])    # k
 print(surname[-2:])   # ki
 print(surname[:-2])   # Nowakows
 print(surname[:-2:2]) # NWkw
-
-

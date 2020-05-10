@@ -32,14 +32,15 @@ else:
 #wykorzystaj instrukcję warunkową
 
 
-    a=input("Podaj wartość x: ")
-    b=input("Podaj wartość y: ")
-    c=input("Podaj wartość z: ")
+    a=input()
+    b=input()
+    c=input()
 
 
 if a>b and a>c
     print("Wartość " + x " jest największe")
-elif b>a and b>c
+else b>a and b>c
     print("Wartość " + y " jest największe")
 else:
     print("Wartość " + z " jest największe")
+

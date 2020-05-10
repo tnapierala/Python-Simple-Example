@@ -23,8 +23,7 @@ tak) wylosuj liczbę z podanego zakresu
     wartość ("Gratulacje" lub "spróbuj innym razem")
 nie) poinforumuj użytkowanika o błędzie
 '''
-
-    
+  
 
 lista=random.choice([1,2,3,4,5,6,7,8,9,10])
 print(lista)
