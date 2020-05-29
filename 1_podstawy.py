@@ -1,4 +1,4 @@
-print("Anna")
+print("\n\nAnna")
 print(8)
 
 #potegowanie
@@ -10,14 +10,16 @@ print(text*2)
 
 #pobieranie danych z klaw
 #+ konkatenacja
-name=input("Podaj imie: ")
+name=input("\nPodaj imie: ")
 print("Twoje imie: " + name ) 
 
-surname=input("Podaj swoje nazwisko: ")
-print("Imie: " + name + ", nazwisko: " + surname )
+surname=input("\nPodaj swoje nazwisko: ")
+print("Nazwisko: " + surname)
+
+print("\n\nImie: " + name + ", nazwisko: " + surname )
 
 lenghtName=str(len(name))
-print("Długość imienia: " + lenghtName )
+print("\nDługość imienia: " + lenghtName )
 
 
 lenSurname=len(surname)
@@ -27,9 +29,9 @@ print(type(lenghtName))
 print(type(surname))
 
 #zad1
-age=int(input("Podaj wiek: "))
+age=str(input("\nPodaj wiek: "))
 
-print("Imię i nazwisko: " + name + " " + surname + ", wiek: " + age + " lat " )
+print("\nImię i nazwisko: " + name + " " + surname + ", wiek: " + age + " lat " )
 
 #/
 
