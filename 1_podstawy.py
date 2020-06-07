@@ -1,3 +1,4 @@
+'''
 print("\n\nAnna")
 print(8)
 
@@ -67,3 +68,21 @@ print(surname[-2])    # k
 print(surname[-2:])   # ki
 print(surname[:-2])   # Nowakows
 print(surname[:-2:2]) # NWkw
+'''
+print()
+surname="Kołobrzeg"
+print('1. '+surname[:-1:3]) # Koz
+print('2. '+surname[:-1]) # 
+print('3. '+surname[:-2]) # 
+print('4. '+surname[:-3]) # 
+print('5. '+surname[-1:]) # 
+print('6. '+surname[-2:]) # 
+print('7. '+surname[-3:]) # 
+print('2. '+surname[:1]) # 
+print('3. '+surname[:2]) # 
+print('4. '+surname[:3]) # 
+print('5. '+surname[1:]) # 
+print('6. '+surname[2:]) # 
+print('7. '+surname[3:]) # 
+
+

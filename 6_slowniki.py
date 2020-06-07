@@ -8,10 +8,10 @@ pracownik = {
 }
 
 print(pracownik)
-print(pracownik['namesChildren'][0])
+#print(pracownik['namesChildren'][0])
 
-pracownik['height'] = 180
-pracownik['weight'] = 180
+pracownik[' height '] = 180
+pracownik[' weight '] = 180
 print(pracownik)
 
 key = 'age'
@@ -38,10 +38,11 @@ Wyświetl za pomocą pętli for wartości i klucze słownika pracownik w formaci
 wykorzystaj w pętli for funkję print do wyświetlenia danych
 
 '''
+print('\n\n\nKlucze i wartosci:\n')
+for key, value in pracownik.items():
+    print(key,':', value, ',\n', end="")
+    
 
-for value in pracownik.values():
-    print(value, end="")
-
-print()
+print('\n')
 
 
