@@ -7,6 +7,14 @@ print(pi)
 x=math.sqrt(9)
 print(x)
 
+#### sprawdzenie 
+import math as m
+x = m.pi #alias skraca nawze wywołania 
+print(x)
+
+####
+
+
 #losowanie
 import random
 rand=random.random()

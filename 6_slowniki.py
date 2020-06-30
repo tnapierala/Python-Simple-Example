@@ -7,7 +7,10 @@ pracownik = {
         ' namesParent ': [' Paweł ' , ' Katarzyna ' ]
 }
 
+#del(name) --> nie można 
+
 print(pracownik)
+
 #print(pracownik['namesChildren'][0])
 
 pracownik[' height '] = 180
@@ -38,6 +41,7 @@ Wyświetl za pomocą pętli for wartości i klucze słownika pracownik w formaci
 wykorzystaj w pętli for funkję print do wyświetlenia danych
 
 '''
+# spojrzeć :D
 print('\n\n\nKlucze i wartosci:\n')
 for key, value in pracownik.items():
     print(key,':', value, ',\n', end="")
