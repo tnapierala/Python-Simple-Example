@@ -24,10 +24,11 @@ list=random.choice([1,2,3,4,5,6])
 print(list)
 
 '''
-Użytkowanik podaje z klawiatury liczbę całkowitą z zakresu <1; 10>
+Użytkowanik podaje z klawiatury liczbę całkowitą z zakresu <1 - 10>
 Sprawdź czy liczb jest prawidłowa:
 tak) wylosuj liczbę z podanego zakresu
-    porównaj liczbę wylosowaną z liczbą podną przez użytkownika i sprawdź czy zgadł wylosowaną
+    porównaj liczbę wylosowaną z liczbą podną przez użytkownika i sprawdź 
+    czy zgadł wylosowaną
     wartość ("Gratulacje" lub "spróbuj innym razem")
 nie) poinforumuj użytkowanika o błędzie
 '''

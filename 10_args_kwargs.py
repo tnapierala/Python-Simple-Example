@@ -48,4 +48,3 @@ def show(first, second, third, **options):
 
 x = show(2, 3, 4, action='add', element='first')
 print(f'Wynik: {x}')
-    

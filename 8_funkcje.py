@@ -1,4 +1,3 @@
-
 def show():
   print('Funkcja show')
 
@@ -50,6 +49,15 @@ def sum(*a):
 print(sum(1, 2, 3, 10))
 
 
+
+def data(first, second, third, *others):
+  print(f'Pierwszy {first}')
+  print(f'Drugi {second}')
+  print(f'Trzeci {third}')
+  print(f'Pozostałe {list(others)}')
+
+print(data('Jan', 'Anna', 'Karol', 'Tomasz', 'Krystyna')) #bez "print" nie zadziała
+
 '''
 Użytkownik podaje z klawiatury:
 marka, model, pojemnosc, predkoscMax
@@ -61,3 +69,5 @@ Model: ...
 Pojemnosc: ...
 Predkosc maksymalna: ...
 '''
+
+for i in range 
