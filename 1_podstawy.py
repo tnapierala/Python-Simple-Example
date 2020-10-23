@@ -1,6 +1,6 @@
 print("\n\nAnna")
 print(8)
-
+g
 #potegowanie
 pow=2**10
 print(pow)
