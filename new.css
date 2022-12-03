@@ -1,0 +1,357 @@
+@keyframes fade-in-up {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in-up {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.modal-overlay .modal-overlay__modal-container {
+    width: 600px;
+    height: 800px;
+    animation-timing-function: cubic-bezier(.02, .69, .05, 1);
+    animation-name: fade-in-up;
+    animation-duration: .28s;
+    background-color: rgb(58, 58, 68);
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+@keyframes fade-in-up {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.app-startup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #212121;
+    z-index: 10003;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.app-startup .app-startup__container {
+    position: relative;
+    width: 580px;
+    min-height: 325px;
+    background-color: #212121;
+    padding: 24px 25px;
+    border-radius: 20px;
+    overflow: hidden;
+    animation-timing-function: cubic-bezier(.02, .69, .05, 1);
+    animation-name: fade-in-up;
+    animation-duration: .28s;
+}
+
+.app-startup .app-startup__container.step-1 {
+    min-height: 400px;
+}
+
+.app-startup .app-startup__container.step-2 {
+    min-height: 590px;
+}
+
+.app-startup .app-startup__container .app-startup__content .app-startup__steps-container .steps-container__content {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.app-startup .app-startup__container .app-startup__content .app-startup__steps-container .steps-container__content .step-item {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: #7e57c2;
+    margin: 0 5px;
+    transform: scale(1);
+    -moz-transition-property: background-color, transform;
+    -o-transition-property: background-color, transform;
+    -webkit-transition-property: background-color, transform;
+    transition-property: background-color, transform;
+    -moz-transition-duration: .2s;
+    -o-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+}
+
+.app-startup .app-startup__container .app-startup__content .app-startup__steps-container .steps-container__content .step-item.current {
+    background-color: #512da8;
+    transform: scale(1.3);
+}
+
+.app-startup .app-startup__container .app-startup__content .app-startup__smart-startup-container .smart-startup-container__inner .steps .step-container {
+    animation-timing-function: cubic-bezier(.02, .69, .05, 1);
+    animation-name: fade-in-up;
+    animation-duration: .28s;
+    transform: translateX(0);
+    -moz-transition-property: transform, opacity, visibility;
+    -o-transition-property: transform, opacity, visibility;
+    -webkit-transition-property: transform, opacity, visibility;
+    transition-property: transform, opacity, visibility;
+    -moz-transition-duration: .5s;
+    -o-transition-duration: .5s;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+    -moz-transition-timing-function: cubic-bezier(.02, .69, .05, 1);
+    -o-transition-timing-function: cubic-bezier(.02, .69, .05, 1);
+    -webkit-transition-timing-function: cubic-bezier(.02, .69, .05, 1);
+    transition-timing-function: cubic-bezier(.02, .69, .05, 1);
+}
+
+.app-startup .app-startup__container .app-startup__content .app-startup__smart-startup-container .smart-startup-container__inner .steps .step-container.is-hidden {
+    opacity: 0;
+    position: absolute;
+    left: -9999px;
+    visibility: hidden;
+    transform: translateX(150%);
+}
+
+.app-startup .app-startup__container .app-startup__content .app-startup__smart-startup-container .smart-startup-container__inner .steps .step-container.is-visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+.app-startup .app-startup__container .app-startup__content .app-startup__smart-startup-container .smart-startup-container__inner .steps .step-container.ended {
+    opacity: 0;
+    position: absolute;
+    left: -9999px;
+    visibility: hidden;
+    transform: translateX(-150%);
+}
+
+.app-startup .app-startup__container .app-startup__step-controller {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: 100%;
+    padding: 8px 25px;
+}
+
+.app-startup .app-startup__container .app-startup__step-controller .inner-content .cta-box .mud-button {
+    padding: 12px 20px;
+}
+
+.app-startup .app-startup__container .app-startup__step-controller .inner-content .cta-box .skip-btn {
+    padding: 0;
+    margin-top: 10px;
+}
+
+.app-startup .app-startup__container .app-startup__step-controller .inner-content .cta-box .skip-btn:hover {
+    background-color: transparent;
+}
+
+.app-startup .app-startup__container .app-startup__step-controller .inner-content .cta-box .skip-btn::after {
+    display: none;
+}
+
+.app-startup-step .app-startup-step__inner-content {
+    padding: 20px 0;
+}
+
+.app-startup-step .app-startup-step__inner-content .app-startup-step__top-header .top-header__step-name-container .step-name-container__inner .subheader {
+    margin-top: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.app-startup-step .app-startup-step__inner-content .app-startup-step__top-header .top-header__step-name-container .step-name-container__inner .subheader .mud-typography-h5 {
+    font-size: 16px;
+}
+
+.app-startup-step .app-startup-step__inner-content .app-startup-step__body .body-content {
+    padding: 20px 0;
+}
+
+.app-startup-step .app-startup-step__inner-content .app-startup-step__body .body-content .mud-radio-group {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.app-startup-step .app-startup-step__inner-content .app-startup-step__body .body-content .bio .mud-input-label {
+    background-color: #212121 !important;
+}
+
+.app-startup-step .app-startup-step__inner-content .app-startup-step__body .body-content .avatars-container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.app-startup-step .app-startup-step__inner-content .app-startup-step__body .body-content .avatars-container .avatar input[type=radio] {
+    position: absolute;
+    opacity: 0;
+}
+
+.app-startup-step .app-startup-step__inner-content .app-startup-step__body .body-content .avatars-container .avatar {
+    cursor: pointer;
+    width: 31%;
+    margin: 4px 4px;
+}
+
+.app-startup-step .app-startup-step__inner-content .app-startup-step__body .body-content .avatars-container .avatar .avatar-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 2px solid #776be7ff;
+    border-radius: 10px;
+    -webkit-transition: -webkit-box-shadow .4s;
+    transition: -webkit-box-shadow .4s;
+    -o-transition: box-shadow .4s;
+    transition: box-shadow .4s;
+    transition: box-shadow .4s, -webkit-box-shadow .4s;
+    position: relative;
+}
+
+.app-startup-step .app-startup-step__inner-content .app-startup-step__body .body-content .avatars-container .avatar .avatar-content img {
+    display: block;
+    margin: 0 auto;
+    width: 72px;
+}
+
+.app-startup-step .app-startup-step__inner-content .app-startup-step__body .body-content .avatars-container .avatar .avatar-details span {
+    margin-bottom: 10px;
+    display: block;
+    font-size: 20px;
+    line-height: 24px;
+    color: #252f42;
+}
+
+.app-startup-step .app-startup-step__inner-content .app-startup-step__body .body-content .avatars-container .container .title {
+    font-size: 16px;
+    font-weight: 500;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    color: #252f42;
+    margin-bottom: 20px;
+}
+
+.app-startup-step .app-startup-step__inner-content .app-startup-step__body .body-content .avatars-container .avatar .avatar-content:hover {
+    -webkit-box-shadow: 0 3px 5px 0 #776be7ff;
+    box-shadow: 0 3px 5px 0 #776be7ff;
+}
+
+.app-startup-step .app-startup-step__inner-content .app-startup-step__body .body-content .avatars-container .avatar input[type=radio]:checked+.avatar-content:after {
+    content: "";
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    background: #776be7ff;
+    right: 20px;
+    top: 20px;
+    border-radius: 100%;
+    border: 3px solid #fff;
+    -webkit-box-shadow: 0 0 0 2px #776be7ff;
+    box-shadow: 0 0 0 2px #776be7ff;
+}
+
+.app-startup-step .app-startup-step__inner-content .app-startup-step__body .body-content .avatars-container .avatar input[type=radio]:checked+.avatar-content {
+    border: 2px solid #776be7ff;
+    background: #512da8;
+    -webkit-transition: ease-in .3s;
+    -o-transition: ease-in .3s;
+    transition: ease-in .3s;
+}
